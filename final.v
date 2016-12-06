@@ -1,6 +1,3 @@
-Require Export Lists.
-Require Export Poly.
-Require Export Bool.
 
 (*
 Natprod: 
@@ -499,16 +496,25 @@ Proof.
   inversion H. Admitted.
   
   
+
+Lemma Identity_helper_gen :
+  forall (l1 l2 : list nat) (alpha : list Huff_alpha), 
+  decode ( l1 ++ l2) alpha = (decode l1 alpha) ++ (decode l2 alpha).
+Proof.
+  SearchAbout list. intros. 
   
-  
+  intros. generalize dependent l2. generalize dependent alpha. induction l1.
+  auto.
+
+  intros. simpl. simpl in IHl1. 
+Admitted.
+                                               
 Lemma identity_helper :
   forall  (x : nat) ( hls : list nat) ( alpha : list Huff_alpha),
   decode (single_char_encode x alpha ++ encode hls alpha) alpha
   = decode ( single_char_encode x alpha) alpha ++ decode ( encode hls alpha) alpha.
 Proof.
-  intros. generalize dependent x.  generalize dependent alpha. induction hls. simpl. auto. intros. rewrite app_nil_r.  rewrite decode_nil. rewrite app_nil_r. auto.
-
-  intros. simpl. simpl in IHhls. rewrite IHhls.   Admitted.
+  intros. rewrite Identity_helper_gen. auto. Qed.
 
 Theorem identiy :
   forall ( hls : list nat) ( alpha : list Huff_alpha),
