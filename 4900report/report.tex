@@ -49,6 +49,7 @@ Inductive tree : Type :=
 
 The foundation of this implementations lies in the initial tree structure. One of the main aspects of Huffman’s algorithm is that the generated tree will always be a full binary tree- meaning that  each node will either be a leaf, or will have two subchildren. We reflect this in our implementation by only having constructors for leaves and nodes. Leaves are composed of a pair of natural numbers. The first number in the pair will represent a character in the alphabet, while the second character will represent the probability of that character appearing 
 
+\newpage
 
 \subsection{Generating a Tree}
 
@@ -84,6 +85,8 @@ Inductive Huff_alpha : Type :=
 \end{lstlisting}
 
 We will first define another data type for a character that includes the generated alphabet. It is similar to the pair that we used to define a character, but with the addition of another list of natural numbers. This list will represent the character encoded into binary.
+
+\newpage
 
 \begin{lstlisting}
 Fixpoint Make_Huff_Alpha_helper (t : tree) ( ls :list nat) : list Huff_alpha :=
@@ -228,34 +231,9 @@ The current theorem is a work in progress, and there are still many improvements
 \section{Conclusion}
  I believe that in the current state, there is a lot more work that could be done to make this project more complete. But overall, My implementation of Huffman Coding in Coq serves as a solid prototype, and includes the most fundamental aspects of the applications of Huffman’s algorithm. 
 
-
- Anything below this line will be deleted, this is just for reference
-
-\subsection{Subsection1} This is a subsection.
-
-\subsection{Subsection2} This is a second subsection.
-
-
-
-
-This is a citation.~\cite{gennaro2010non}
-
-This is a chunk of code:
-\begin{lstlisting}
-  Definition f(x : nat) := S x.
-  Definition g(y : nat) := f y.
-\end{lstlisting}
-
-This is inline code \lstinline|Fixpoint f(x : nat) := ...| typeset within a line of text.
-
-\paragraph{Para1.} This is a paragraph, or subsubsection.
-
-\section{Conclusion}
-
-but anything below this line won't be deleted
-
-
 \bibliographystyle{plain}
 \bibliography{references}
+
+Cormen, Thomas H. and Stein, Clifford and Rivest, Ronald L. and Leiserson, Charles E. Introduction to Algorithms 3rd Edition. MIT Press. 2010.
 
 \end{document}

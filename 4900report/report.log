@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.3)  9 DEC 2016 19:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015/Debian) (preloaded format=pdflatex 2016.12.3)  9 DEC 2016 19:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -199,17 +199,16 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-
-Overfull \hbox (62.03815pt too wide) in paragraph at lines 92--93
+ [2]
+Overfull \hbox (62.03815pt too wide) in paragraph at lines 95--96
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
-[2]
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-Overfull \hbox (80.19032pt too wide) in paragraph at lines 116--118
+Overfull \hbox (80.19032pt too wide) in paragraph at lines 119--121
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -217,13 +216,13 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 [3]
-Overfull \hbox (29.35466pt too wide) in paragraph at lines 143--144
+Overfull \hbox (29.35466pt too wide) in paragraph at lines 146--147
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
 ][][][][][][] 
  []
 
 
-Overfull \hbox (69.9375pt too wide) in paragraph at lines 147--148
+Overfull \hbox (69.9375pt too wide) in paragraph at lines 150--151
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -234,7 +233,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 [4]
-Overfull \hbox (41.33246pt too wide) in paragraph at lines 171--172
+Overfull \hbox (41.33246pt too wide) in paragraph at lines 174--175
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -242,7 +241,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 
-Overfull \hbox (38.24902pt too wide) in paragraph at lines 192--193
+Overfull \hbox (38.24902pt too wide) in paragraph at lines 195--196
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -250,7 +249,7 @@ Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
 [5]
-Overfull \hbox (15.9657pt too wide) in paragraph at lines 211--212
+Overfull \hbox (15.9657pt too wide) in paragraph at lines 214--215
 [][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
@@ -263,12 +262,7 @@ Missing character: There is no ™ in font cmr10!
 Missing character: There is no â in font cmr10!
 Missing character: There is no € in font cmr10!
 Missing character: There is no ™ in font cmr10!
-[6]
-
-LaTeX Warning: Citation `gennaro2010non' on page 7 undefined on input line 241.
-
-
-(./report.bbl
+[6] (./report.bbl
 
 LaTeX Warning: Empty `thebibliography' environment on input line 3.
 
@@ -278,25 +272,24 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
  ) 
 Here is how much of TeX's memory you used:
- 1972 strings out of 493029
- 26335 string characters out of 6136234
- 105330 words of memory out of 5000000
- 5552 multiletter control sequences out of 15000+600000
- 6402 words of font info for 23 fonts, out of 8000000 for 9000
+ 1966 strings out of 493029
+ 26280 string characters out of 6136234
+ 107330 words of memory out of 5000000
+ 5547 multiletter control sequences out of 15000+600000
+ 6056 words of font info for 22 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 29i,5n,40p,952b,1413s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 29i,5n,40p,952b,1107s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
 ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/share/texlive/texmf
 -dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></usr/share/texlive/texmf-dist/
 fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-dist/font
-s/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type
-1/public/amsfonts/cm/cmti10.pfb>
-Output written on report.pdf (7 pages, 116691 bytes).
+s/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on report.pdf (7 pages, 107420 bytes).
 PDF statistics:
- 60 PDF objects out of 1000 (max. 8388607)
- 42 compressed objects within 1 object stream
+ 56 PDF objects out of 1000 (max. 8388607)
+ 39 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
